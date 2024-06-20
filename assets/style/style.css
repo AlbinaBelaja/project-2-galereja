@@ -1,0 +1,69 @@
+nav {
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    width: 100%;
+    height: 10%;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  nav li {
+    display: inline-block;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  nav a {
+    color: #141d5f;
+    display: flex;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  nav a:hover {
+    background-color: #8c9ce0;
+  }
+
+  main {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  }
+
+  h1{
+    color: #dec1e4;
+    text-align: center; 
+  }
+  .dragons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+  .pegasus{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .text {
+    color: #bda6c2;
+    text-align: center; 
+  }
+  .scale {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale:hover {
+    transform: scale(1.2); /* Увеличeybt масштабf */
+   }
